@@ -1,6 +1,6 @@
 # 🚦Traffic Light Controller - Verilog
 
-This project simulates a simple traffic light controller for a 2-way intersection (North-South and East-West) using Verilog HDL. The controller switches between green, yellow, and red signals with set durations and is tested using a testbench.
+A Finite State Machine (FSM)-based traffic light controller implemented using Verilog HDL. The design follows a Moore FSM model for output control based on current states only.
 
 ---
 
@@ -65,13 +65,13 @@ Generates a traffic_light.vcd waveform file for inspection.
 
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
-#### Compile
+-#### Compile
 
 ##### `trafficlight_op.png`
 
 the output has been uploaded in file above
 
-#### View waveform
+-#### View waveform
 
 ##### `traffic_lightwaveform.png`
 
