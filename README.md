@@ -97,7 +97,7 @@ GTKWave (for viewing waveforms)
 👤 Author
 
 Dhiraj Sharma M S – 
-GitHub Profile(https://github.com/Dhiraj4-alt)
+[GitHub Profile](https://github.com/Dhiraj4-alt)
 
 
 **Tags:** `#verilog` `#FSM` `#traffic-light-controller` `#RTL-design` `#hardware-simulation`
