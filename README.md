@@ -1,2 +1,71 @@
-# FSM_Traffic_Light_Verilog
-Finite State Machine (FSM)-based traffic light control logic implementation using Verilog HDL. The system simulates traffic signal behavior at two-way intersection using a Moore FSM Model with concepts such as state transitions, clock-based sequencing, encoding logic to represent traffic light colors (Red,Yellow,Green).
+# 🚦Traffic Light Controller - Verilog
+
+This project simulates a simple traffic light controller for a 2-way intersection (North-South and East-West) using Verilog HDL. The controller switches between green, yellow, and red signals with set durations and is tested using a testbench.
+
+---
+
+## 📁 Project Structure
+
+├── FSM_traffic_light.v # Main traffic light controller module
+├── FSM_traffic_light_tb.v # Testbench for simulation
+├── trafficlight_op.png # compiiled output (generated after simulation)
+├── traffic_lightwaveform.png # Waveform output (generated after simulation)
+├── README.md # Project documentation
+└── .gitignore # Git ignore rules
+
+---
+
+## 📋 Module Description
+
+### `trafficlight.v`
+
+- Inputs:
+  - ⏱️`clk`: Clock signal.
+  - 🔁`reset`: Asynchronous reset.
+- Outputs:
+  - ↕️`nslight`: North-South light (3 bits: RED/YELLOW/GREEN).
+  - ↔️`ewlight`: East-West light (3 bits: RED/YELLOW/GREEN).
+
+### State Encoding
+
+```verilog
+NSgreen   = 2'b00;
+NSyellow  = 2'b01;
+EWgreen   = 2'b10;
+EWyellow  = 2'b11;
+```
+### Light Encoding
+
+```verilog
+🟥 RED    = 3'b100;
+🟨 YELLOW = 3'b010;
+🟩 GREEN  = 3'b001;
+```
+### Timing
+
+Green states: 5 clock cycles
+Yellow states: 2 clock cycles
+
+🧪 Testbench: trafficlight_tb.v
+
+Generates a 10 ns period clock.
+Applies reset and simulates the traffic light for 300 ns.
+Generates a traffic_light.vcd waveform file for inspection.
+
+▶️ Running the Simulation
+
+You can run the simulation using any Verilog simulator like Icarus Verilog:
+
+# Compile
+the output has been uploaded in file trafficlight_op.png
+
+# View waveform
+traffic_lightwaveform.png file shows the waveform after creating a file traffic_light.vcd
+
+📦 Dependencies
+
+Icarus Verilog
+GTKWave (for viewing waveforms)
+
+👤 Author
+Dhiraj Sharma M S – GitHub Profile( https://github.com/your-Dhiraj4-alt )
