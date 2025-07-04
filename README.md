@@ -72,13 +72,13 @@ Generates a traffic_light.vcd waveform file for inspection.
 
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
-** 🧰 Compile**
+**🧰 Compile**
 
 **`trafficlight_op.png`**
 
 the output has been uploaded in file above
 
-** 📊 Simulation Result**
+**📊 Simulation Result**
 
 Below is a screenshot of the GTKWave output showing correct transitions of North-South and East-West lights:
 
@@ -88,14 +88,16 @@ Below is a screenshot of the GTKWave output showing correct transitions of North
 
 ### 📦 Dependencies
 
- ○ Icarus Verilog
- ○ GTKWave (for viewing waveforms)
+|Icarus Verilog|
+GTKWave (for viewing waveforms)|
 
 
 -------------------
 
 👤 Author
-Dhiraj Sharma M S – GitHub Profile(https://github.com/Dhiraj4-alt)
+
+Dhiraj Sharma M S – 
+GitHub Profile(https://github.com/Dhiraj4-alt)
 
 
 **Tags:** `#verilog` `#FSM` `#traffic-light-controller` `#RTL-design` `#hardware-simulation`
