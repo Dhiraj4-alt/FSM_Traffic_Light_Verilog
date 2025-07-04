@@ -65,13 +65,13 @@ Generates a traffic_light.vcd waveform file for inspection.
 
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
--#### Compile
+#### Compile
 
 ##### `trafficlight_op.png`
 
 the output has been uploaded in file above
 
--#### View waveform
+#### View waveform
 
 ##### `traffic_lightwaveform.png`
 
