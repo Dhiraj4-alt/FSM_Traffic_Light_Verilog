@@ -5,6 +5,7 @@ This project simulates a simple traffic light controller for a 2-way intersectio
 ---
 
 ## 📁 Project Structure
+```
 
 ├── FSM_traffic_light.v # Main traffic light controller module.
 
@@ -17,6 +18,8 @@ This project simulates a simple traffic light controller for a 2-way intersectio
 ├── README.md # Project documentation.
 
 └── .gitignore # Git ignore rules
+
+```
 
 ---
 
