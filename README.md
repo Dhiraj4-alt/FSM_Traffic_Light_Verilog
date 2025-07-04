@@ -7,23 +7,17 @@ This project simulates a simple traffic light controller for a 2-way intersectio
 ## 📁 Project Structure
 
 ├── FSM_traffic_light.v # Main traffic light controller module
-
 ├── FSM_traffic_light_tb.v # Testbench for simulation
-
 ├── trafficlight_op.png # compiiled output (generated after simulation)
-
 ├── traffic_lightwaveform.png # Waveform output (generated after simulation)
-
 ├── README.md # Project documentation
-
 └── .gitignore # Git ignore rules
-
 
 ---
 
 ## 📋 Module Description
 
-### `trafficlight.v`
+### `FSM_traffic_light.v`
 
 - Inputs:
   - ⏱️`clk`: Clock signal.
@@ -53,7 +47,10 @@ Green states: 5 clock cycles
 Yellow states: 2 clock cycles
 
 -----
-### 🧪 Testbench: trafficlight_tb.v
+
+### 🧪 Testbench:
+
+### `FSM_traffic_light_tb.v`
 
 Generates a 10 ns period clock.
 Applies reset and simulates the traffic light for 300 ns.
@@ -66,10 +63,16 @@ Generates a traffic_light.vcd waveform file for inspection.
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
 #### Compile
-the output has been uploaded in file trafficlight_op.png
+
+### `trafficlight_op.png`
+
+the output has been uploaded in file above
 
 #### View waveform
-traffic_lightwaveform.png file shows the waveform after creating a file traffic_light.vcd
+
+### `traffic_lightwaveform.png`
+
+above file shows the waveform after creating a file traffic_light.vcd
 
 ---
 
@@ -77,6 +80,7 @@ traffic_lightwaveform.png file shows the waveform after creating a file traffic_
 
 Icarus Verilog
 GTKWave (for viewing waveforms)
+
 
 -------------------
 👤 Author
