@@ -46,13 +46,13 @@ EWyellow  = 2'b11;
 Green states: 5 clock cycles
 Yellow states: 2 clock cycles
 
-##🧪 Testbench: trafficlight_tb.v
+## 🧪 Testbench: trafficlight_tb.v
 
 Generates a 10 ns period clock.
 Applies reset and simulates the traffic light for 300 ns.
 Generates a traffic_light.vcd waveform file for inspection.
 
-##▶️ Running the Simulation
+## ▶️ Running the Simulation
 
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
@@ -67,5 +67,6 @@ traffic_lightwaveform.png file shows the waveform after creating a file traffic_
 Icarus Verilog
 GTKWave (for viewing waveforms)
 
+-------------------
 👤 Author
 Dhiraj Sharma M S – GitHub Profile( https://github.com/your-Dhiraj4-alt )
