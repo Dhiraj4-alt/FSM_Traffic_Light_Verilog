@@ -94,7 +94,7 @@ GTKWave (for viewing waveforms)
 
 -------------------
 
-👤 Author
+👤 **Author**
 
 Dhiraj Sharma M S – 
 [GitHub Profile](https://github.com/Dhiraj4-alt)
