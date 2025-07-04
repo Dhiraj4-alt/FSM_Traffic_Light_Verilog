@@ -8,15 +8,10 @@ This project simulates a simple traffic light controller for a 2-way intersectio
 ```
 
 ├── FSM_traffic_light.v # Main traffic light controller module.
-
 ├── FSM_traffic_light_tb.v # Testbench for simulation.
-
 ├── trafficlight_op.png # compiiled output (generated after simulation).
-
 ├── traffic_lightwaveform.png # Waveform output (generated after simulation).
-
 ├── README.md # Project documentation.
-
 └── .gitignore # Git ignore rules
 
 ```
