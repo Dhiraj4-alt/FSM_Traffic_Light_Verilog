@@ -27,9 +27,9 @@ A Finite State Machine (FSM)-based traffic light controller implemented using Ve
   - 🔁`reset`: Asynchronous reset.
 - Outputs:
   - ↕️`nslight`: North-South light (3 bits: RED/YELLOW/GREEN).
-  - ↔️`ewlight`: East-West light (3 bits: RED/YELLOW/GREEN).
+  - ↕️`ewlight`: East-West light (3 bits: RED/YELLOW/GREEN).
 
-### State Encoding
+### 🔀 State Encoding
 
 ```verilog
 NSgreen   = 2'b00;
@@ -37,14 +37,14 @@ NSyellow  = 2'b01;
 EWgreen   = 2'b10;
 EWyellow  = 2'b11;
 ```
-### Light Encoding
+### 🔦 Light Encoding
 
 ```verilog
 🟥 RED    = 3'b100;
 🟨 YELLOW = 3'b010;
 🟩 GREEN  = 3'b001;
 ```
-### Timing
+### ⏳️ Timing
 
 Green states: 5 clock cycles
 Yellow states: 2 clock cycles
@@ -72,13 +72,13 @@ Generates a traffic_light.vcd waveform file for inspection.
 
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
-**Compile**
+** 🧰 Compile**
 
 **`trafficlight_op.png`**
 
 the output has been uploaded in file above
 
-**📊 Simulation Result**
+** 📊 Simulation Result**
 
 Below is a screenshot of the GTKWave output showing correct transitions of North-South and East-West lights:
 
@@ -88,9 +88,8 @@ Below is a screenshot of the GTKWave output showing correct transitions of North
 
 ### 📦 Dependencies
 
-Icarus Verilog
-
-GTKWave (for viewing waveforms)
+ ○ Icarus Verilog
+ ○ GTKWave (for viewing waveforms)
 
 
 -------------------
