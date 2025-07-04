@@ -9,7 +9,7 @@ A Finite State Machine (FSM)-based traffic light controller implemented using Ve
 
 ├── FSM_traffic_light.v # Main traffic light controller module.
 ├── FSM_traffic_light_tb.v # Testbench for simulation.
-├── trafficlight_op.png # compiiled output (generated after simulation).
+├── trafficlight_op.png # compiled output (generated after simulation).
 ├── traffic_lightwaveform.png # Waveform output (generated after simulation).
 ├── README.md # Project documentation.
 └── .gitignore # Git ignore rules
@@ -20,7 +20,7 @@ A Finite State Machine (FSM)-based traffic light controller implemented using Ve
 
 ## 📋 Module Description
 
-##### `FSM_traffic_light.v`
+H4 `FSM_traffic_light.v`
 
 - Inputs:
   - ⏱️`clk`: Clock signal.
@@ -60,7 +60,7 @@ Yellow states: 2 clock cycles
 
 ### 🧪 Testbench:
 
-##### `FSM_traffic_light_tb.v`
+H4 `FSM_traffic_light_tb.v`
 
 Generates a 10 ns period clock.
 Applies reset and simulates the traffic light for 300 ns.
@@ -72,17 +72,17 @@ Generates a traffic_light.vcd waveform file for inspection.
 
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
-#### Compile
+H4 Compile
 
-##### `trafficlight_op.png`
+H5 `trafficlight_op.png`
 
 the output has been uploaded in file above
 
-#### 📊 Simulation Result
+H4 📊 Simulation Result
 
 Below is a screenshot of the GTKWave output showing correct transitions of North-South and East-West lights:
 
-(`traffic_lightwaveform.png`)
+H5 `traffic_lightwaveform.png`
 
 ---
 
