@@ -49,6 +49,13 @@ EWyellow  = 2'b11;
 Green states: 5 clock cycles
 Yellow states: 2 clock cycles
 
+### ⚙️ FSM Logic Summary
+
+- Uses 4 states: NS_GREEN, NS_YELLOW, EW_GREEN, EW_YELLOW
+- Transitions occur on clock edges after defined delays (5 cycles for green, 2 for yellow)
+- Lights are encoded as 3-bit signals (RED, YELLOW, GREEN)
+- Output depends only on the current state (Moore FSM)
+
 -----
 
 ### 🧪 Testbench:
@@ -71,11 +78,11 @@ You can run the simulation using any Verilog simulator like Icarus Verilog:
 
 the output has been uploaded in file above
 
-#### View waveform
+#### 📊 Simulation Result
 
-##### `traffic_lightwaveform.png`
+Below is a screenshot of the GTKWave output showing correct transitions of North-South and East-West lights:
 
-above file shows the waveform after creating a file traffic_light.vcd
+(`traffic_lightwaveform.png`)
 
 ---
 
