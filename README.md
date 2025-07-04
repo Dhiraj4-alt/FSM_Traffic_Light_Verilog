@@ -84,6 +84,7 @@ above file shows the waveform after creating a file traffic_light.vcd
 ### 📦 Dependencies
 
 Icarus Verilog
+
 GTKWave (for viewing waveforms)
 
 
