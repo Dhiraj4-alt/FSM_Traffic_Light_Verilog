@@ -60,7 +60,7 @@ Yellow states: 2 clock cycles
 
 ### 🧪 Testbench:
 
-H4 `FSM_traffic_light_tb.v`
+**`FSM_traffic_light_tb.v`**
 
 Generates a 10 ns period clock.
 Applies reset and simulates the traffic light for 300 ns.
@@ -72,17 +72,17 @@ Generates a traffic_light.vcd waveform file for inspection.
 
 You can run the simulation using any Verilog simulator like Icarus Verilog:
 
-H4 Compile
+***Compile***
 
-H5 `trafficlight_op.png`
+**`trafficlight_op.png`**
 
 the output has been uploaded in file above
 
-H4 📊 Simulation Result
+***📊 Simulation Result***
 
 Below is a screenshot of the GTKWave output showing correct transitions of North-South and East-West lights:
 
-H5 `traffic_lightwaveform.png`
+**`traffic_lightwaveform.png`**
 
 ---
 
