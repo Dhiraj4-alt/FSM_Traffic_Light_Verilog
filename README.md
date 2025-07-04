@@ -20,7 +20,7 @@ A Finite State Machine (FSM)-based traffic light controller implemented using Ve
 
 ## 📋 Module Description
 
-H4 `FSM_traffic_light.v`
+** `FSM_traffic_light.v` **
 
 - Inputs:
   - ⏱️`clk`: Clock signal.
